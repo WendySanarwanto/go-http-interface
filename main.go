@@ -17,7 +17,7 @@ func main() {
 	fmt.Println("Response:", resp)
 	fmt.Println("Response.body:", resp.Body)
 
-	// respBs := make([]byte, 99999)
+	// respBs := make([]byte, 32 * 1024)
 	// resp.Body.Read(respBs)
 	// fmt.Println(string(respBs))
 	io.Copy(os.Stdout, resp.Body)
