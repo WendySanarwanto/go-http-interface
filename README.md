@@ -2,7 +2,6 @@
 
 Simple Go program which demonstrate making HTTP request call against an API endpoint and also handling the request's response. 
 
-
 ## How to run the sample
 
 * Ensure that you have setup GoLang in your machine.
